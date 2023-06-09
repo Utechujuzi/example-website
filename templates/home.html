@@ -6,9 +6,8 @@
 
 {% block body%}
     <div class="nav">
-        <a href="upload_assignment.html">Upload task</a>
-        <a href="#">View Assignment</a>
-        <a href="#">Logout</a>
+        <button><a href="{{ url_for('signup')}}">Register</a></button> &nbsp; &nbsp;
+        <button><a href="{{ url_for('signin') }}">Login</a></button>
     </div>
 {% endblock %}
 
